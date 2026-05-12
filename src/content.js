@@ -4,7 +4,7 @@ const content = {
   name: {
     first: 'Perry',
     last: 'Spyropoulos',
-    lastNameBreak: 5, // "Spyro" italic amber, "poulos" plain
+    lastNameBreak: 3, // "Spy" italic amber, "ropoulos" plain
   },
   title:     'Technical Lead · Senior Software Engineer',
   status:    'Open to opportunities',
