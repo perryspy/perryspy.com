@@ -1,0 +1,11 @@
+{
+  "name": "perryspy",
+  "version": "1.0.0",
+  "description": "perryspy.com — portfolio site build tool",
+  "scripts": {
+    "build": "node src/build.js"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0"
+  }
+}
