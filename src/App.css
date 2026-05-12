@@ -26,7 +26,7 @@ a { color: inherit; text-decoration: none; }
 .shell { display: grid; grid-template-columns: 300px 1fr; min-height: 100vh; }
 
 /* Sidebar */
-.sidebar { position: sticky; top: 0; height: 100vh; background: var(--bg2); border-right: 1px solid var(--border); padding: 2.5rem 2rem; display: flex; flex-direction: column; overflow-y: auto; }
+.sidebar { position: sticky; top: 0; align-self: start; background: var(--bg2); border-right: 1px solid var(--border); padding: 2.5rem 2rem; display: flex; flex-direction: column; }
 .status-dot { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--green-bright); font-family: var(--mono); margin-bottom: 2rem; }
 .status-dot::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--green-bright); box-shadow: 0 0 0 3px rgba(106,181,112,.15); animation: pulse 2.5s ease-in-out infinite; }
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
@@ -38,7 +38,7 @@ a { color: inherit; text-decoration: none; }
 .bio strong { color: var(--text); font-weight: 500; }
 .section-label { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-family: var(--mono); margin-bottom: .75rem; }
 .stack-grid { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 1.5rem; }
-.sidebar-nav { display: flex; flex-direction: column; gap: 2px; margin-top: auto; padding-top: 1.5rem; }
+.sidebar-nav { display: flex; flex-direction: column; gap: 2px; padding-top: 1.5rem; }
 .sidebar-nav a { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--faint); font-family: var(--mono); padding: 5px 0 5px 10px; border-left: 2px solid transparent; transition: color .15s, border-color .15s; }
 .sidebar-nav a:hover { color: var(--amber); border-left-color: var(--amber); }
 .contacts { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 6px; }
@@ -97,7 +97,7 @@ a { color: inherit; text-decoration: none; }
 /* Responsive */
 @media (max-width: 860px) {
   .shell { display: block; }
-  .sidebar { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+  .sidebar { position: relative; border-right: none; border-bottom: 1px solid var(--border); }
   .main { padding: 2rem 1.5rem 3rem; max-width: 100%; }
   .job-body { padding-left: 0; }
   .job-meta, .edu { grid-template-columns: 1fr; gap: .25rem; }
