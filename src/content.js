@@ -52,10 +52,10 @@ const content = {
         {
           label: 'VA Work Queue Modernization (2021–Present)',
           bullets: [
-            'Led a three-engineer team to replace a legacy VA claims processing system with a modern, scalable platform — reducing routing bottlenecks and improving visibility into veteran service requests for staff nationwide.',
+            'Led a three-engineer team replacing a legacy VA claims processing system — cutting routing bottlenecks and giving VA staff real-time visibility into veteran service requests across the country.',
             'Architected and built a React micro-frontend using single-spa, Redux, and Apollo Client, enabling independent deployability and faster iteration across a large-scale federal codebase.',
-            'Built a GraphQL API over OpenSearch that unlocked complex, real-time querying of VA work queue data — giving claims processors faster access to the information needed to route and resolve veteran requests.',
-            'Drove adoption of GitHub Copilot across the team, cutting time spent on boilerplate and freeing engineers to focus on higher-value problem solving.',
+            'Built a GraphQL API over OpenSearch that replaced slow, ad-hoc queries with flexible real-time data access — reducing the time claims processors spend finding and acting on work queue information.',
+            'Drove team-wide adoption of GitHub Copilot, measurably accelerating feature delivery and reducing time spent on repetitive implementation tasks.',
             'Career Manager for four direct reports: setting development goals, running performance reviews, and helping each person grow toward their next role.',
           ],
           stack: ['React', 'single-spa', 'Redux', 'Apollo Client', 'GraphQL', 'OpenSearch', 'Apache Kafka', 'Node.js', 'GitHub Copilot'],
@@ -63,28 +63,28 @@ const content = {
         {
           label: 'Opioids Data Warehouse | FDA (2019–2021)',
           bullets: [
-            'Led UI development for a custom FDA research platform that consolidated disparate opioid datasets into a single queryable interface, enabling researchers to run complex cross-source analyses that previously required manual data wrangling across multiple systems.',
+            'Led UI development for a custom FDA research platform that consolidated disparate opioid datasets into a single queryable interface — replacing manual data wrangling across siloed systems and giving researchers the ability to run complex cross-source analyses for the first time.',
           ],
           stack: ['React', 'Java Spring', 'Microservices', 'PostgreSQL', 'Elasticsearch'],
         },
         {
           label: 'Dark Labs | Red/Blue Team Intelligence Hub (2018–2019)',
           bullets: [
-            'Built a React webapp that served as the operational hub for Red and Blue cybersecurity teams, centralizing threat intelligence and improving coordination during active engagements.',
+            'Built a React intelligence hub for Red and Blue cybersecurity teams, centralizing threat information and eliminating the coordination overhead that comes with fragmented tooling during active engagements.',
           ],
           stack: ['React', 'Redux', 'Thunk', 'Axios', 'ES6+'],
         },
         {
           label: 'NIH Insights | Patient Survey & Video Submission App (2017–2018)',
           bullets: [
-            'Developed a Swift iOS app that allowed patients to submit surveys and video responses directly to NIH researchers, replacing a manual collection process and expanding the reach of health outcome studies.',
+            'Built a Swift iOS app that let patients submit surveys and video responses directly to NIH researchers — replacing a fragmented manual intake process and giving researchers structured, analyzable data they could act on immediately.',
           ],
           stack: ['Swift', 'PromiseKit', 'Alamofire', 'AVFoundation'],
         },
         {
           label: 'SecureGive | Multi-Platform Donation Platform (2016–2018)',
           bullets: [
-            'Promoted to Tech Lead mid-2018. Delivered a full suite of donation products for churches and nonprofits — web app, Admin CMS, iOS, Android, Windows kiosk, and iPad kiosk — on a single shared backend, enabling organizations to accept secure payments across every major platform.',
+            'Promoted to Tech Lead mid-2018. Delivered a secure donation platform for churches and nonprofits across web, iOS, Android, and kiosk — shipping a RESTful API, Admin CMS, customer webapp, Windows kiosk, iPad kiosk, Android app, and iPhone app on a single shared backend.',
           ],
           stack: ['React', 'Redux', 'React Native', 'Scala / Akka HTTP', 'Postgres', 'AWS (EC2/RDS/S3)', 'Swift', 'CircleCI'],
         },
@@ -96,7 +96,7 @@ const content = {
       company:  'Qonceptual LLC',
       location: 'Charleston, SC',
       bullets: [
-        'Built frontend features across five commercial products — PinScout, BATO Dashboard, Strongforce Dashboard, Evervest, and MobilePBX — spanning Angular and Node-based stacks.',
+        'Shipped frontend features across five commercial products — PinScout, BATO Dashboard, Strongforce Dashboard, Evervest, and MobilePBX — moving quickly across different codebases and product contexts.',
       ],
       stack: ['Angular 1.5 & 2', 'Ruby on Rails', 'SailsJS', 'GoJS', 'ES6', 'SASS / LESS'],
     },
@@ -106,9 +106,9 @@ const content = {
       company:  'SPARC LLC',
       location: 'Charleston, SC',
       bullets: [
-        'Full-stack engineer on VA NWQ (National Work Queue), the predecessor to the VA work queue system I now lead at Booz Allen — giving me an unusually deep understanding of the problem space from both ends.',
-        'Built VA VBMS Core 2, a benefits management system used by VA staff to process veteran claims, alongside commercial products including STEM Premier and SuitedTo/Prepado.',
-        'Owned UX design end to end: user research, workflow design, wireframing, and prototyping directly with clients.',
+        'Full-stack engineer on VA NWQ (National Work Queue), the direct predecessor to the VA work queue system I now lead at Booz Allen — giving me end-to-end perspective on the problem that few engineers in this space have.',
+        'Built VA VBMS Core 2, a veteran benefits management platform used by VA staff to process claims, alongside commercial products including STEM Premier and SuitedTo/Prepado.',
+        'Owned UX design end to end: user research, workflow design, wireframing, and prototyping.',
       ],
       stack: ['Java Spring MVC', 'Oracle DB', 'AngularJS', 'jQuery', 'Java Play', 'MongoDB', 'Node.js', 'Bootstrap'],
     },
@@ -118,7 +118,7 @@ const content = {
       company:  'ATD',
       location: 'Charleston, SC',
       bullets: [
-        'Built a Perl-based stock similarity tool with configurable metric weighting to surface trading candidates, supporting analysis for a high-throughput automated trading operation.',
+        'Built a Perl-based stock similarity tool with configurable metric weighting to surface trading candidates, supporting a high-throughput automated trading operation.',
       ],
       stack: ['Perl', 'Quantitative Analysis'],
     },
@@ -129,7 +129,7 @@ const content = {
       location: 'Charleston, SC',
       bullets: [
         'TA for introductory programming (Python, Java) over three semesters — led labs, graded work, and tutored students one-on-one.',
-        'Bioinformatics intern at MUSC: analyzed gene regulation in hematopoietic stem cells via genechip microarray data, building statistical models in R to identify meaningful patterns.',
+        'Bioinformatics intern at MUSC: analyzed gene regulation in hematopoietic stem cells via genechip microarray data, building statistical models in R to surface meaningful patterns.',
       ],
       stack: ['Python', 'Java', 'R', 'Bioinformatics'],
     },
