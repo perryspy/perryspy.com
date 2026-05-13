@@ -15,7 +15,7 @@ const content = {
   resumePDF: 'Perry_Spyropoulos_Resume.pdf',
 
   // ── Bio ────────────────────────────────────────────────────────────────────
-  bio: `Full-stack engineer with <strong>15+ years</strong> delivering production systems for federal and commercial clients — VA, FDA, NIH — at <strong>Booz Allen Hamilton</strong>. <strong>Active Secret clearance.</strong> Deep expertise in React ecosystems, GraphQL, OpenSearch, and agentic AI development.`,
+  bio: `Full-stack engineer with <strong>15 years</strong> of experience building production systems for federal and commercial clients — VA, FDA, NIH — at <strong>Booz Allen Hamilton</strong>. <strong>Active Secret clearance.</strong> Deep expertise in React ecosystems, GraphQL, OpenSearch, and agentic AI development.`,
 
   // ── Sidebar stack tags ─────────────────────────────────────────────────────
   stack: [
@@ -52,39 +52,39 @@ const content = {
         {
           label: 'VA Work Queue Modernization (2021–Present)',
           bullets: [
-            'Technical lead for a large-scale VA initiative to replace legacy claims processing systems and streamline how VA staff manage and route veteran service requests, directly overseeing three developers across architecture, code review, sprint planning, and production deployments.',
-            'Designed and built a React micro-frontend from the ground up using single-spa architecture, Redux, Apollo Client, and the VA\'s Benefits Integration Platform (BIP) UI component library.',
-            'Designed and built a GraphQL interface API backed by OpenSearch, enabling complex query execution against large-scale VA work queue data — improving routing efficiency and claims processing visibility for VA staff nationwide.',
-            'Championed team-wide adoption of agentic AI-assisted development, integrating GitHub Copilot to measurably improve developer velocity and code quality.',
-            'Career Manager for four direct reports: conducting performance reviews, setting development goals, and guiding long-term growth.',
+            'Led a three-engineer team to replace a legacy VA claims processing system with a modern, scalable platform — reducing routing bottlenecks and improving visibility into veteran service requests for staff nationwide.',
+            'Architected and built a React micro-frontend using single-spa, Redux, and Apollo Client, enabling independent deployability and faster iteration across a large-scale federal codebase.',
+            'Built a GraphQL API over OpenSearch that unlocked complex, real-time querying of VA work queue data — giving claims processors faster access to the information needed to route and resolve veteran requests.',
+            'Drove adoption of GitHub Copilot across the team, cutting time spent on boilerplate and freeing engineers to focus on higher-value problem solving.',
+            'Career Manager for four direct reports: setting development goals, running performance reviews, and helping each person grow toward their next role.',
           ],
           stack: ['React', 'single-spa', 'Redux', 'Apollo Client', 'GraphQL', 'OpenSearch', 'Apache Kafka', 'Node.js', 'GitHub Copilot'],
         },
         {
           label: 'Opioids Data Warehouse | FDA (2019–2021)',
           bullets: [
-            'UI Team Lead working with data scientists and engineers to build a custom data warehouse web app for FDA opioid research. Designed UI features for complex cross-source queries, result visualization, and long-running multi-day analyses.',
+            'Led UI development for a custom FDA research platform that consolidated disparate opioid datasets into a single queryable interface, enabling researchers to run complex cross-source analyses that previously required manual data wrangling across multiple systems.',
           ],
           stack: ['React', 'Java Spring', 'Microservices', 'PostgreSQL', 'Elasticsearch'],
         },
         {
           label: 'Dark Labs | Red/Blue Team Intelligence Hub (2018–2019)',
           bullets: [
-            'Frontend engineer building a React webapp serving as a centralized information and collaboration hub between Red and Blue cybersecurity teams.',
+            'Built a React webapp that served as the operational hub for Red and Blue cybersecurity teams, centralizing threat intelligence and improving coordination during active engagements.',
           ],
           stack: ['React', 'Redux', 'Thunk', 'Axios', 'ES6+'],
         },
         {
           label: 'NIH Insights | Patient Survey & Video Submission App (2017–2018)',
           bullets: [
-            'Swift iOS developer for an iPhone app enabling patients to complete surveys and upload videos to NIH for health outcome analysis.',
+            'Developed a Swift iOS app that allowed patients to submit surveys and video responses directly to NIH researchers, replacing a manual collection process and expanding the reach of health outcome studies.',
           ],
           stack: ['Swift', 'PromiseKit', 'Alamofire', 'AVFoundation'],
         },
         {
           label: 'SecureGive | Multi-Platform Donation Platform (2016–2018)',
           bullets: [
-            'Started as full-stack developer, promoted to Tech Lead mid-2018. Built a secure donation platform for churches and nonprofits across web, iOS, Android, and kiosk — delivering RESTful API, Admin CMS, customer donation webapp, Windows kiosk, iPad kiosk, Android app, and iPhone app.',
+            'Promoted to Tech Lead mid-2018. Delivered a full suite of donation products for churches and nonprofits — web app, Admin CMS, iOS, Android, Windows kiosk, and iPad kiosk — on a single shared backend, enabling organizations to accept secure payments across every major platform.',
           ],
           stack: ['React', 'Redux', 'React Native', 'Scala / Akka HTTP', 'Postgres', 'AWS (EC2/RDS/S3)', 'Swift', 'CircleCI'],
         },
@@ -96,7 +96,7 @@ const content = {
       company:  'Qonceptual LLC',
       location: 'Charleston, SC',
       bullets: [
-        'Frontend engineer on multiple commercial products: PinScout, BATO Dashboard, Strongforce Dashboard, Evervest, and MobilePBX.',
+        'Built frontend features across five commercial products — PinScout, BATO Dashboard, Strongforce Dashboard, Evervest, and MobilePBX — spanning Angular and Node-based stacks.',
       ],
       stack: ['Angular 1.5 & 2', 'Ruby on Rails', 'SailsJS', 'GoJS', 'ES6', 'SASS / LESS'],
     },
@@ -106,9 +106,9 @@ const content = {
       company:  'SPARC LLC',
       location: 'Charleston, SC',
       bullets: [
-        'Full-stack engineer on VA NWQ (National Work Queue), an early VA claims routing and workload management system — the original chapter of the same VA mission carried forward to the present day at Booz Allen.',
-        'Full-stack engineer on VA VBMS Core 2, a benefits management system, and commercial projects including STEM Premier and SuitedTo/Prepado.',
-        'Led UX design and client interaction: user workflow design, wireframing, and prototyping.',
+        'Full-stack engineer on VA NWQ (National Work Queue), the predecessor to the VA work queue system I now lead at Booz Allen — giving me an unusually deep understanding of the problem space from both ends.',
+        'Built VA VBMS Core 2, a benefits management system used by VA staff to process veteran claims, alongside commercial products including STEM Premier and SuitedTo/Prepado.',
+        'Owned UX design end to end: user research, workflow design, wireframing, and prototyping directly with clients.',
       ],
       stack: ['Java Spring MVC', 'Oracle DB', 'AngularJS', 'jQuery', 'Java Play', 'MongoDB', 'Node.js', 'Bootstrap'],
     },
@@ -118,7 +118,7 @@ const content = {
       company:  'ATD',
       location: 'Charleston, SC',
       bullets: [
-        'Analyzed emerging trends for high-throughput automated trading; built a Perl-based stock similarity tool using adjustable metric weighting.',
+        'Built a Perl-based stock similarity tool with configurable metric weighting to surface trading candidates, supporting analysis for a high-throughput automated trading operation.',
       ],
       stack: ['Perl', 'Quantitative Analysis'],
     },
@@ -128,8 +128,8 @@ const content = {
       company:  'College of Charleston / MUSC',
       location: 'Charleston, SC',
       bullets: [
-        'TA for introductory programming (Python, Java) over three semesters; led lab sessions, graded assignments, and tutored students.',
-        'Bioinformatics intern at MUSC studying gene regulation in hematopoietic stem cells via genechip microarray analysis. Data mining and statistical calculations using R.',
+        'TA for introductory programming (Python, Java) over three semesters — led labs, graded work, and tutored students one-on-one.',
+        'Bioinformatics intern at MUSC: analyzed gene regulation in hematopoietic stem cells via genechip microarray data, building statistical models in R to identify meaningful patterns.',
       ],
       stack: ['Python', 'Java', 'R', 'Bioinformatics'],
     },
