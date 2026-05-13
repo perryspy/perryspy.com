@@ -22,13 +22,20 @@ const IconLI = () => (
   </svg>
 )
 
+const IconDL = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+)
+
 export default function Sidebar({ data }) {
-  const { name, title, status, email, phone, location, linkedin, bio, stack } = data
+  const { name, title, email, phone, location, linkedin, bio, resumePDF } = data
   const b = name.lastNameBreak
 
   return (
     <aside className="sidebar">
-      <span className="status-dot">{status}</span>
 
       <h1 className="sidebar-name">
         {name.first}<br />
@@ -39,11 +46,6 @@ export default function Sidebar({ data }) {
       <div className="divider" />
 
       <p className="bio" dangerouslySetInnerHTML={{ __html: bio }} />
-
-      <p className="section-label">Stack highlights</p>
-      <div className="stack-grid">
-        {stack.map(t => <Tag key={t.label} label={t.label} hi={t.hi} />)}
-      </div>
 
       <div className="divider" />
 
@@ -63,6 +65,15 @@ export default function Sidebar({ data }) {
           </a>
         )}
       </div>
+
+      <div className="sidebar-availability">
+        <span className="availability-dot" />
+        Available for new roles
+      </div>
+
+      <a href={resumePDF} download className="dl-btn sidebar-dl">
+        <IconDL /> Download Resume
+      </a>
 
       <nav className="sidebar-nav" aria-label="Page sections">
         <a href="#experience">Experience</a>

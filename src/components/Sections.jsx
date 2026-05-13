@@ -57,17 +57,12 @@ const IconDL = () => (
   </svg>
 )
 
-export function Clearance({ text, resumePDF, location, fullName }) {
+export function Clearance({ text, location, fullName }) {
   const year = new Date().getFullYear()
   return (
     <section className="section" id="clearance">
       <h2 className="section-head">Clearance</h2>
       <span className="clearance-badge">{text}</span>
-      <div>
-        <a href={resumePDF} download className="dl-btn">
-          <IconDL /> Download Resume
-        </a>
-      </div>
       <div className="footer">
         &copy; {year} {fullName} &nbsp;&middot;&nbsp; {location} &nbsp;&middot;&nbsp; Open to opportunities
       </div>
