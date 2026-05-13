@@ -4,14 +4,14 @@ const content = {
   name: {
     first: 'Perry',
     last: 'Spyropoulos',
-    lastNameBreak: 3, // "Spy" italic amber, "ropoulos" plain
+    lastNameBreak: 0, // Ex: If 3, "Spy" italic amber, "ropoulos" plain
   },
   title:     'Technical Lead · Senior Software Engineer',
   status:    'Open to opportunities',
   location:  'Bethlehem, PA',
   email:     'perry.spy@gmail.com',
   phone:     '843.901.1168',
-  linkedin:  'YOUR-LINKEDIN-HANDLE',
+  linkedin:  'https://www.linkedin.com/in/perryspy/',
   resumePDF: 'Perry_Spyropoulos_Resume.pdf',
 
   // ── Bio ────────────────────────────────────────────────────────────────────
