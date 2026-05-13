@@ -6,7 +6,7 @@ const content = {
     last: 'Spyropoulos',
     lastNameBreak: 0, // Ex: If 3, "Spy" italic amber, "ropoulos" plain
   },
-  title:     'Technical Lead · Senior Software Engineer',
+  title:     'Tech Lead · Sr Software Engineer',
   status:    'Open to opportunities',
   location:  'Bethlehem, PA',
   email:     'perry.spy@gmail.com',
@@ -14,8 +14,11 @@ const content = {
   linkedin:  'perryspy',
   resumePDF: 'Perry_Spyropoulos_Resume.pdf',
 
+  // ── Hook ───────────────────────────────────────────────────────────────────
+  hook: `I've spent my career modernizing systems that serve real people, convincing clients to adopt better tools, and building the thing that replaces the legacy thing.`,
+
   // ── Bio ────────────────────────────────────────────────────────────────────
-  bio: `Full-stack engineer with <strong>15 years</strong> of experience building production systems for federal and commercial clients — VA, FDA, NIH — at <strong>Booz Allen Hamilton</strong>. <strong>Active Secret clearance.</strong> Deep expertise in React ecosystems, GraphQL, OpenSearch, and agentic AI development.`,
+  bio: `Full-stack engineer at <strong>Booz Allen Hamilton</strong> with <strong>15 years</strong> experience delivering production systems for federal and commercial clients, including the VA, FDA, and NIH. <strong>Active Secret clearance.</strong> React, GraphQL, OpenSearch, agentic AI`,
 
   // ── Sidebar stack tags ─────────────────────────────────────────────────────
   stack: [

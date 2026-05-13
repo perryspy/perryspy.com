@@ -31,7 +31,7 @@ const IconDL = () => (
 )
 
 export default function Sidebar({ data }) {
-  const { name, title, email, phone, location, linkedin, bio, resumePDF } = data
+  const { name, title, email, phone, location, linkedin, bio, resumePDF, hook } = data
   const b = name.lastNameBreak
 
   return (
@@ -42,6 +42,8 @@ export default function Sidebar({ data }) {
         <em>{name.last.slice(0, b)}</em>{name.last.slice(b)}
       </h1>
       <p className="sidebar-title">{title}</p>
+
+      {hook && <p className="sidebar-hook">{hook}</p>}
 
       <div className="divider" />
 
