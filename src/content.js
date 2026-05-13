@@ -11,7 +11,7 @@ const content = {
   location:  'Bethlehem, PA',
   email:     'perry.spy@gmail.com',
   phone:     '843.901.1168',
-  linkedin:  'https://www.linkedin.com/in/perryspy/',
+  linkedin:  'perryspy',
   resumePDF: 'Perry_Spyropoulos_Resume.pdf',
 
   // ── Bio ────────────────────────────────────────────────────────────────────
