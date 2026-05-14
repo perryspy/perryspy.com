@@ -65,6 +65,12 @@ export function Clearance({ text, location, fullName }) {
       <span className="clearance-badge">{text}</span>
       <div className="footer">
         &copy; {year} {fullName} &nbsp;&middot;&nbsp; {location} &nbsp;&middot;&nbsp; Open to opportunities
+        <div style={{ marginTop: '0.5rem' }}>
+          Built by me &nbsp;&middot;&nbsp;{' '}
+          <a href="https://github.com/perryspy/perryspy.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--muted)', textDecoration: 'underline' }}>
+            source on GitHub
+          </a>
+        </div>
       </div>
     </section>
   )
