@@ -18,7 +18,7 @@ const content = {
   hook: `I've spent my career modernizing systems that serve real people, convincing clients to adopt better tools, and building the thing that replaces the legacy thing.`,
 
   // ── Bio ────────────────────────────────────────────────────────────────────
-  bio: `Full-stack engineer at <strong>Booz Allen Hamilton</strong> with <strong>15 years</strong> experience delivering production systems for federal and commercial clients, including the VA, FDA, and NIH. <strong>Active Secret clearance.</strong> React, GraphQL, OpenSearch, agentic AI`,
+  bio: `Full-stack engineer at <strong>Booz Allen Hamilton</strong> with <strong>15 years</strong> experience delivering production systems for federal and commercial clients, including the VA, FDA, and NIH. <strong>Active Secret clearance.</strong>`,
 
   // ── Sidebar stack tags ─────────────────────────────────────────────────────
   stack: [
