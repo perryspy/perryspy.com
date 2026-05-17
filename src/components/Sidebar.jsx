@@ -1,4 +1,5 @@
 import Tag from './Tag'
+import ThemeToggle from './ThemeToggle';
 
 const IconMail = () => (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
@@ -30,12 +31,16 @@ const IconDL = () => (
   </svg>
 )
 
-export default function Sidebar({ data }) {
+export default function Sidebar({ data, theme, onToggle }) {
   const { name, title, email, phone, location, linkedin, bio, resumePDF, hook } = data
   const b = name.lastNameBreak
 
   return (
     <aside className="sidebar">
+
+      <div style={{ position: 'absolute', top: 5, right: 5 }}>
+        <ThemeToggle theme={theme} onToggle={onToggle} />
+      </div>
 
       <h1 className="sidebar-name">
         {name.first}<br />
