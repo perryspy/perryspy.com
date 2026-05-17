@@ -17,11 +17,11 @@ export default function ThemeToggle({ theme, onToggle }) {
         fontSize: '14px',
         transition: 'color 0.15s, border-color 0.15s',
       }}
-      onMouseEnter={e => {
+      onMouseEnter={(e) => {
         e.currentTarget.style.color = 'var(--text)';
         e.currentTarget.style.borderColor = 'var(--faint)';
       }}
-      onMouseLeave={e => {
+      onMouseLeave={(e) => {
         e.currentTarget.style.color = 'var(--muted)';
         e.currentTarget.style.borderColor = 'var(--border)';
       }}

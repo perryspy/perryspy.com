@@ -1,13 +1,25 @@
 import { useState, useEffect } from 'react';
-import './App.css'
-import content from './content'
-import Sidebar from './components/Sidebar'
-import { Experience, Education, Skills, Clearance } from './components/Sections'
-import ThemeToggle from './components/ThemeToggle';
+import './App.css';
+import content from './content';
+import Sidebar from './components/Sidebar';
+import {
+  Experience,
+  Education,
+  Skills,
+  Clearance,
+} from './components/Sections';
 
 export default function App() {
-  const { name, experience, education, skills, clearance, resumePDF, location } = content
-  const fullName = `${name.first} ${name.last}`
+  const {
+    name,
+    experience,
+    education,
+    skills,
+    clearance,
+    resumePDF,
+    location,
+  } = content;
+  const fullName = `${name.first} ${name.last}`;
 
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('perryspy-theme') ?? 'dark';
@@ -19,7 +31,7 @@ export default function App() {
   }, [theme]);
 
   function toggleTheme() {
-    setTheme(t => t === 'dark' ? 'light' : 'dark');
+    setTheme((t) => (t === 'dark' ? 'light' : 'dark'));
   }
 
   return (
@@ -37,5 +49,5 @@ export default function App() {
         />
       </main>
     </div>
-  )
+  );
 }
