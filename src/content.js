@@ -52,13 +52,13 @@ const content = {
       location: 'Bethlehem, PA',
       roles: [
         {
-          label: 'VA Work Queue Modernization (2021–Present)',
+          label: 'VA Work Queue Modernization (2021–2026)',
           bullets: [
             'Led a three-engineer team replacing a legacy VA claims processing system, cutting routing bottlenecks and giving VA staff real-time visibility into veteran service requests across the country.',
-            'Architected and built a React micro-frontend using single-spa, Redux, and Apollo Client, enabling independent deployability and faster iteration across a large-scale federal codebase.',
-            'Built a GraphQL API over OpenSearch that replaced slow, ad-hoc queries with flexible real-time data access, reducing the time claims processors spend finding and acting on work queue information.',
-            'Drove team-wide adoption of GitHub Copilot, measurably accelerating feature delivery and reducing time spent on repetitive implementation tasks.',
-            'Career Manager for four direct reports: setting development goals, running performance reviews, and helping each person grow toward their next role.',
+            'Architected and maintained a React micro-frontend using single-spa, Redux, and Apollo Client, enabling independent deployability and faster iteration across a large-scale federal codebase.',
+            'Built and maintained a GraphQL API over OpenSearch that replaced slow, ad-hoc queries with flexible real-time data access, reducing time-to-action for claims processors across the country.',
+            'Drove team-wide adoption of GitHub Copilot, accelerating feature delivery and cutting time spent on repetitive implementation tasks.',
+            'Served as Career Manager for four direct reports: setting development goals, running performance reviews, and helping each person grow toward their next role.',
           ],
           stack: [
             'React',
@@ -88,7 +88,7 @@ const content = {
         {
           label: 'Dark Labs | Red/Blue Team Intelligence Hub (2018–2019)',
           bullets: [
-            'Built a React intelligence hub for Red and Blue cybersecurity teams, centralizing threat information and eliminating the coordination overhead that comes with fragmented tooling during active engagements.',
+            'Built a React intelligence hub for Red and Blue cybersecurity teams, centralizing threat information and eliminating the coordination overhead that comes with scattered tooling during active engagements.',
           ],
           stack: ['React', 'Redux', 'Thunk', 'Axios', 'ES6+'],
         },
@@ -96,7 +96,7 @@ const content = {
           label:
             'NIH Insights | Patient Survey & Video Submission App (2017–2018)',
           bullets: [
-            'Built a Swift iOS app that let patients submit surveys and video responses directly to NIH researchers, replacing a fragmented manual intake process and giving researchers structured, analyzable data they could act on immediately.',
+            'Built a Swift iOS app that let patients submit surveys and video responses directly to NIH researchers, replacing a fragmented manual intake process and giving researchers structured, actionable data they could act on immediately.',
           ],
           stack: ['Swift', 'PromiseKit', 'Alamofire', 'AVFoundation'],
         },
@@ -141,7 +141,7 @@ const content = {
       company: 'SPARC LLC',
       location: 'Charleston, SC',
       bullets: [
-        'Full-stack engineer on VA NWQ (National Work Queue), the direct predecessor to the VA work queue system I now lead at Booz Allen, giving me end-to-end perspective on the problem that few engineers in this space have.',
+        'Full-stack engineer on VA NWQ (National Work Queue), the direct predecessor to the VA work queue system I now lead at Booz Allen, giving me end-to-end perspective on federal claims processing that few engineers in this domain carry.',
         'Built VA VBMS Core 2, a veteran benefits management platform used by VA staff to process claims, alongside commercial products including STEM Premier and SuitedTo/Prepado.',
         'Owned UX design end to end: user research, workflow design, wireframing, and prototyping.',
       ],
