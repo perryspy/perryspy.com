@@ -1,4 +1,4 @@
-# perryspy.com
+# [perryspy.com](https://perryspy.com)
 
 Personal portfolio site built with React + Vite.
 
